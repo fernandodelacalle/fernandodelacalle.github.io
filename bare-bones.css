@@ -1,0 +1,95 @@
+table {
+	width: 600px;
+}
+td {
+	padding: 10px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(30%);
+}
+
+body {
+	/*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+	  font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+	font-weight: 400;
+}
+h1 {
+  font-weight: 400;
+  /*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+  color: brown
+}
+
+a:visited {
+  text-decoration: none;
+  color: brown
+  }
+
+a:hover { 
+  text-decoration: underline;
+  }
+
+a:active { }
+
+.pubFont {
+	font-weight: 400;
+  font-size: medium;
+  /*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+  padding-left: 10; 
+  
+}
+
+.hdrFont {
+  font-size: 20pt;
+  /*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+	font-weight: 400;
+}
+
+
+.nameFont {
+  font-size: 30pt;
+  /*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+font-weight: 400;
+}
+
+.noteFont {
+  font-size: 9pt;
+/*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+  font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+font-weight: 400;
+}
+
+.boldFont {
+	/*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+	  font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+	font-weight: 700;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+	table {
+		width: 100%;
+	}
+	.pubFont {
+		font-weight: 400;
+	  font-size: medium;
+	  /*  font-family: HoeflerText-Regular,Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif;*/
+	    font-family: Hoefler Text,Baskerville Old Face,Garamond,Times New Roman,serif; 
+	  padding-left: 0; 
+  
+	}
+}
